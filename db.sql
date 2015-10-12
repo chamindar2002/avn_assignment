@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 12, 2015 at 09:09 AM
+-- Generation Time: Oct 12, 2015 at 10:37 AM
 -- Server version: 5.6.21
 -- PHP Version: 5.6.3
 
@@ -39,6 +39,49 @@ CREATE TABLE IF NOT EXISTS `auth_user` (
 INSERT INTO `auth_user` (`uid`, `enabled`, `username`, `last_name`, `first_name`, `password`) VALUES
 (1, 1, 'admin', 'Admin', 'Admin', '24b0712e91489671013c3bc67d4ec894');
 
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `course_lecturer`
+--
+
+DROP TABLE IF EXISTS `course_lecturer`;
+CREATE TABLE IF NOT EXISTS `course_lecturer` (
+`id` int(11) NOT NULL,
+  `name` varchar(255) NOT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `course_lecturer`
+--
+
+INSERT INTO `course_lecturer` (`id`, `name`) VALUES
+(1, 'Lecturer A'),
+(2, 'Lecturer B');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `course_master`
+--
+
+DROP TABLE IF EXISTS `course_master`;
+CREATE TABLE IF NOT EXISTS `course_master` (
+`id` int(11) NOT NULL,
+  `course_name` varchar(255) NOT NULL,
+  `course_duration` int(11) NOT NULL,
+  `course_price` decimal(10,2) NOT NULL,
+  `lecturer_id` int(11) NOT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `course_master`
+--
+
+INSERT INTO `course_master` (`id`, `course_name`, `course_duration`, `course_price`, `lecturer_id`) VALUES
+(1, 'PHP course', 2, '4000.00', 1),
+(2, 'Mysql Course', 1, '3000.00', 2);
+
 --
 -- Indexes for dumped tables
 --
@@ -50,6 +93,18 @@ ALTER TABLE `auth_user`
  ADD PRIMARY KEY (`uid`), ADD UNIQUE KEY `user_U_1` (`username`);
 
 --
+-- Indexes for table `course_lecturer`
+--
+ALTER TABLE `course_lecturer`
+ ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `course_master`
+--
+ALTER TABLE `course_master`
+ ADD PRIMARY KEY (`id`), ADD KEY `lecturer_id` (`lecturer_id`);
+
+--
 -- AUTO_INCREMENT for dumped tables
 --
 
@@ -58,3 +113,22 @@ ALTER TABLE `auth_user`
 --
 ALTER TABLE `auth_user`
 MODIFY `uid` int(11) NOT NULL AUTO_INCREMENT COMMENT 'User ID',AUTO_INCREMENT=4;
+--
+-- AUTO_INCREMENT for table `course_lecturer`
+--
+ALTER TABLE `course_lecturer`
+MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=3;
+--
+-- AUTO_INCREMENT for table `course_master`
+--
+ALTER TABLE `course_master`
+MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=3;
+--
+-- Constraints for dumped tables
+--
+
+--
+-- Constraints for table `course_master`
+--
+ALTER TABLE `course_master`
+ADD CONSTRAINT `course_master_ibfk_1` FOREIGN KEY (`lecturer_id`) REFERENCES `course_lecturer` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE;

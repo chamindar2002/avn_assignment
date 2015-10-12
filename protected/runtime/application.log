@@ -38670,3 +38670,113 @@ Stack trace:
 REQUEST_URI=/avn_assignment/index.php/site/index
 HTTP_REFERER=http://127.0.0.1/avn_assignment/index.php/site/login
 ---
+2015/10/12 10:30:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\avn_assignment\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\avn_assignment\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\avn_assignment\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\avn_assignment\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/bootstr...')
+#3 C:\xampp\htdocs\avn_assignment\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\avn_assignment\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/avn_assignment/index.php/site/js/bootstrap.min.js
+HTTP_REFERER=http://127.0.0.1/avn_assignment/index.php/site/login
+---
+2015/10/12 10:30:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\avn_assignment\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\avn_assignment\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\xampp\htdocs\avn_assignment\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\xampp\htdocs\avn_assignment\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/styles...')
+#3 C:\xampp\htdocs\avn_assignment\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\avn_assignment\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/avn_assignment/index.php/site/css/styles.css
+HTTP_REFERER=http://127.0.0.1/avn_assignment/index.php/site/login
+---
+2015/10/12 10:30:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\avn_assignment\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\avn_assignment\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\avn_assignment\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\avn_assignment\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/bootstr...')
+#3 C:\xampp\htdocs\avn_assignment\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\avn_assignment\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/avn_assignment/index.php/site/js/bootstrap.min.js
+HTTP_REFERER=http://127.0.0.1/avn_assignment/index.php/site/login
+---
+2015/10/12 10:30:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\avn_assignment\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\avn_assignment\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\xampp\htdocs\avn_assignment\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\xampp\htdocs\avn_assignment\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/styles...')
+#3 C:\xampp\htdocs\avn_assignment\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\avn_assignment\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/avn_assignment/index.php/site/css/styles.css
+HTTP_REFERER=http://127.0.0.1/avn_assignment/index.php/site/login
+---
+2015/10/12 10:30:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\avn_assignment\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\avn_assignment\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\avn_assignment\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\avn_assignment\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/bootstr...')
+#3 C:\xampp\htdocs\avn_assignment\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\avn_assignment\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/avn_assignment/index.php/site/js/bootstrap.min.js
+HTTP_REFERER=http://127.0.0.1/avn_assignment/index.php/site/login
+---
+2015/10/12 10:30:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\avn_assignment\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\avn_assignment\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\xampp\htdocs\avn_assignment\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\xampp\htdocs\avn_assignment\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/styles...')
+#3 C:\xampp\htdocs\avn_assignment\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\avn_assignment\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/avn_assignment/index.php/site/css/styles.css
+HTTP_REFERER=http://127.0.0.1/avn_assignment/index.php/site/login
+---
+2015/10/12 10:30:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\avn_assignment\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\avn_assignment\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\xampp\htdocs\avn_assignment\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\xampp\htdocs\avn_assignment\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/styles...')
+#3 C:\xampp\htdocs\avn_assignment\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\avn_assignment\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/avn_assignment/index.php/site/css/styles.css
+HTTP_REFERER=http://127.0.0.1/avn_assignment/index.php/site/login
+---
+2015/10/12 10:30:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\avn_assignment\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\avn_assignment\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\avn_assignment\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\avn_assignment\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/bootstr...')
+#3 C:\xampp\htdocs\avn_assignment\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\avn_assignment\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/avn_assignment/index.php/site/js/bootstrap.min.js
+HTTP_REFERER=http://127.0.0.1/avn_assignment/index.php/site/login
+---
+2015/10/12 10:30:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\avn_assignment\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\avn_assignment\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\xampp\htdocs\avn_assignment\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\xampp\htdocs\avn_assignment\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/styles...')
+#3 C:\xampp\htdocs\avn_assignment\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\avn_assignment\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/avn_assignment/index.php/site/css/styles.css
+HTTP_REFERER=http://127.0.0.1/avn_assignment/index.php/site/login
+---
+2015/10/12 10:30:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\avn_assignment\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\avn_assignment\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\avn_assignment\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\avn_assignment\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/bootstr...')
+#3 C:\xampp\htdocs\avn_assignment\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\avn_assignment\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/avn_assignment/index.php/site/js/bootstrap.min.js
+HTTP_REFERER=http://127.0.0.1/avn_assignment/index.php/site/login
+---
