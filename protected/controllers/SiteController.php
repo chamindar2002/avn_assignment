@@ -31,11 +31,12 @@ class SiteController extends Controller
 	 */
 	public function actionIndex()
 	{
-                #fetch user login data
-		$data = json_decode(Yii::app()->session['ssn_user_info']);
+                #fetch course data
+		                
+                $dataProvider=new CActiveDataProvider('CourseMaster');
                 
                 #render landing page
-		$this->render('index',['data'=>$data]);
+		$this->render('index',['dataProvider'=>$dataProvider]);
 	}
 	/**
 	 * This is the action to handle external exceptions.

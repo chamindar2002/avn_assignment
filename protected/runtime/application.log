@@ -38513,3 +38513,160 @@ Stack trace:
 REQUEST_URI=/avn_assignment/index.php/site/js/bootstrap.min.js
 HTTP_REFERER=http://127.0.0.1/avn_assignment/index.php/site/login
 ---
+2015/10/12 09:51:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\avn_assignment\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\avn_assignment\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\xampp\htdocs\avn_assignment\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\xampp\htdocs\avn_assignment\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/styles...')
+#3 C:\xampp\htdocs\avn_assignment\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\avn_assignment\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/avn_assignment/index.php/site/css/styles.css
+HTTP_REFERER=http://127.0.0.1/avn_assignment/index.php/site/login
+---
+2015/10/12 09:52:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\avn_assignment\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\avn_assignment\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\avn_assignment\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\avn_assignment\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/bootstr...')
+#3 C:\xampp\htdocs\avn_assignment\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\avn_assignment\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/avn_assignment/index.php/site/js/bootstrap.min.js
+HTTP_REFERER=http://127.0.0.1/avn_assignment/index.php/site/login
+---
+2015/10/12 09:52:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\avn_assignment\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\avn_assignment\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\xampp\htdocs\avn_assignment\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\xampp\htdocs\avn_assignment\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/styles...')
+#3 C:\xampp\htdocs\avn_assignment\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\avn_assignment\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/avn_assignment/index.php/site/css/styles.css
+HTTP_REFERER=http://127.0.0.1/avn_assignment/index.php/site/login
+---
+2015/10/12 09:52:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\avn_assignment\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\avn_assignment\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\avn_assignment\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\avn_assignment\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/bootstr...')
+#3 C:\xampp\htdocs\avn_assignment\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\avn_assignment\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/avn_assignment/index.php/site/js/bootstrap.min.js
+HTTP_REFERER=http://127.0.0.1/avn_assignment/index.php/site/login
+---
+2015/10/12 09:52:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\avn_assignment\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\avn_assignment\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\avn_assignment\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\avn_assignment\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/bootstr...')
+#3 C:\xampp\htdocs\avn_assignment\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\avn_assignment\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/avn_assignment/index.php/site/js/bootstrap.min.js
+HTTP_REFERER=http://127.0.0.1/avn_assignment/index.php/site/login
+---
+2015/10/12 09:52:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\avn_assignment\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\avn_assignment\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\xampp\htdocs\avn_assignment\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\xampp\htdocs\avn_assignment\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/styles...')
+#3 C:\xampp\htdocs\avn_assignment\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\avn_assignment\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/avn_assignment/index.php/site/css/styles.css
+HTTP_REFERER=http://127.0.0.1/avn_assignment/index.php/site/login
+---
+2015/10/12 10:09:15 [error] [exception.CException] exception 'CException' with message 'CActiveDataProvider and its behaviors do not have a method or closure named "search".' in C:\xampp\htdocs\avn_assignment\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\avn_assignment\protected\views\site\index.php(25): CComponent->__call('search', Array)
+#1 C:\xampp\htdocs\avn_assignment\protected\views\site\index.php(25): CActiveDataProvider->search()
+#2 C:\xampp\htdocs\avn_assignment\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\avn_assignment\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\avn_assignment\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\avn_assignment\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#6 C:\xampp\htdocs\avn_assignment\protected\controllers\SiteController.php(39): CController->render('index', Array)
+#7 C:\xampp\htdocs\avn_assignment\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#8 C:\xampp\htdocs\avn_assignment\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\avn_assignment\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\avn_assignment\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\avn_assignment\framework\web\CWebApplication.php(282): CController->run('index')
+#12 C:\xampp\htdocs\avn_assignment\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#13 C:\xampp\htdocs\avn_assignment\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\avn_assignment\index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/avn_assignment/index.php/site/index
+HTTP_REFERER=http://127.0.0.1/avn_assignment/index.php/site/login
+---
+2015/10/12 10:09:29 [error] [php] Undefined variable: model (C:\xampp\htdocs\avn_assignment\protected\views\site\index.php:26)
+Stack trace:
+#0 C:\xampp\htdocs\avn_assignment\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\avn_assignment\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\avn_assignment\protected\controllers\SiteController.php(39): SiteController->render()
+#3 C:\xampp\htdocs\avn_assignment\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\htdocs\avn_assignment\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\avn_assignment\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\avn_assignment\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\avn_assignment\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\avn_assignment\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\avn_assignment\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\avn_assignment\index.php(17): CWebApplication->run()
+REQUEST_URI=/avn_assignment/index.php/site/index
+in C:\xampp\htdocs\avn_assignment\protected\views\site\index.php (26)
+in C:\xampp\htdocs\avn_assignment\protected\controllers\SiteController.php (39)
+in C:\xampp\htdocs\avn_assignment\index.php (17)
+2015/10/12 10:09:41 [error] [php] include(Customerdetails.php): failed to open stream: No such file or directory (C:\xampp\htdocs\avn_assignment\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\avn_assignment\protected\views\site\index.php(37): spl_autoload_call()
+#1 C:\xampp\htdocs\avn_assignment\framework\web\CBaseController.php(126): require()
+#2 C:\xampp\htdocs\avn_assignment\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#3 C:\xampp\htdocs\avn_assignment\framework\web\CController.php(869): SiteController->renderFile()
+#4 C:\xampp\htdocs\avn_assignment\framework\web\CController.php(782): SiteController->renderPartial()
+#5 C:\xampp\htdocs\avn_assignment\protected\controllers\SiteController.php(39): SiteController->render()
+#6 C:\xampp\htdocs\avn_assignment\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#7 C:\xampp\htdocs\avn_assignment\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\xampp\htdocs\avn_assignment\framework\web\CController.php(286): SiteController->runAction()
+#9 C:\xampp\htdocs\avn_assignment\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 C:\xampp\htdocs\avn_assignment\framework\web\CWebApplication.php(282): SiteController->run()
+#11 C:\xampp\htdocs\avn_assignment\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\avn_assignment\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\avn_assignment\index.php(17): CWebApplication->run()
+REQUEST_URI=/avn_assignment/index.php/site/index
+in C:\xampp\htdocs\avn_assignment\protected\views\site\index.php (37)
+in C:\xampp\htdocs\avn_assignment\protected\controllers\SiteController.php (39)
+in C:\xampp\htdocs\avn_assignment\index.php (17)
+2015/10/12 10:12:59 [error] [exception.CException] exception 'CException' with message 'Property "CourseLecturer.firstname" is not defined.' in C:\xampp\htdocs\avn_assignment\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\avn_assignment\framework\db\ar\CActiveRecord.php(145): CComponent->__get('firstname')
+#1 C:\xampp\htdocs\avn_assignment\framework\base\CComponent.php(612) : eval()'d code(1): CActiveRecord->__get('firstname')
+#2 C:\xampp\htdocs\avn_assignment\framework\base\CComponent.php(612): eval()
+#3 C:\xampp\htdocs\avn_assignment\framework\zii\widgets\grid\CDataColumn.php(137): CComponent->evaluateExpression('$data->lecturer...', Array)
+#4 C:\xampp\htdocs\avn_assignment\framework\zii\widgets\grid\CGridColumn.php(151): CDataColumn->renderDataCellContent(0, Object(CourseMaster))
+#5 C:\xampp\htdocs\avn_assignment\framework\zii\widgets\grid\CGridView.php(616): CGridColumn->renderDataCell(0)
+#6 C:\xampp\htdocs\avn_assignment\framework\zii\widgets\grid\CGridView.php(572): CGridView->renderTableRow(0)
+#7 C:\xampp\htdocs\avn_assignment\framework\zii\widgets\grid\CGridView.php(482): CGridView->renderTableBody()
+#8 C:\xampp\htdocs\avn_assignment\framework\zii\widgets\CBaseListView.php(167): CGridView->renderItems()
+#9 [internal function]: CBaseListView->renderSection(Array)
+#10 C:\xampp\htdocs\avn_assignment\framework\zii\widgets\CBaseListView.php(150): preg_replace_callback('/{(\\w+)}/', Array, '{summary}\n{item...')
+#11 C:\xampp\htdocs\avn_assignment\framework\zii\widgets\CBaseListView.php(135): CBaseListView->renderContent()
+#12 C:\xampp\htdocs\avn_assignment\framework\web\CBaseController.php(173): CBaseListView->run()
+#13 C:\xampp\htdocs\avn_assignment\protected\views\site\index.php(42): CBaseController->widget('zii.widgets.gri...', Array)
+#14 C:\xampp\htdocs\avn_assignment\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\avn_assignment\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#16 C:\xampp\htdocs\avn_assignment\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#17 C:\xampp\htdocs\avn_assignment\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#18 C:\xampp\htdocs\avn_assignment\protected\controllers\SiteController.php(39): CController->render('index', Array)
+#19 C:\xampp\htdocs\avn_assignment\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#20 C:\xampp\htdocs\avn_assignment\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#21 C:\xampp\htdocs\avn_assignment\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#22 C:\xampp\htdocs\avn_assignment\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 C:\xampp\htdocs\avn_assignment\framework\web\CWebApplication.php(282): CController->run('index')
+#24 C:\xampp\htdocs\avn_assignment\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#25 C:\xampp\htdocs\avn_assignment\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#26 C:\xampp\htdocs\avn_assignment\index.php(17): CApplication->run()
+#27 {main}
+REQUEST_URI=/avn_assignment/index.php/site/index
+HTTP_REFERER=http://127.0.0.1/avn_assignment/index.php/site/login
+---
