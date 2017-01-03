@@ -4,6 +4,7 @@ class SiteController extends Controller
 {
 	/**
 	 * Declares class-based actions.
+	 *	test
 	 */
     
         //public $layout='//layouts/column2';
